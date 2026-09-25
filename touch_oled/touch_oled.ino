@@ -10,7 +10,7 @@
 Adafruit_SH1106G display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
 const int TOUCH_PIN = 4;        
-const int UMBRAL_TOUCH = 30;    
+const int UMBRAL_TOUCH = 350;    
 
 void setup() {
   Serial.begin(115200);
